@@ -29,6 +29,7 @@ function AddLeases() {
           <Row className="align-items-center" data-aos="fade-bottom">
            <Form />
           </Row>
+          
         </div>
       </Container>
 

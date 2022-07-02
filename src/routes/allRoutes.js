@@ -37,7 +37,15 @@ import AddBooking from '../pages/Bookings/add-booking'
 import AllBooking from '../pages/Bookings/Booking-table'
 import AddMaintenance from '../pages/Maintenance/add-maintenance'
 import AddServiceProvider from '../pages/Service Provider/Add-service-provider'
+import ServiceProviderTable from '../pages/Service Provider/Service-provide-table'
 import AddDocument from '../pages/Share Document/Add-document'
+
+
+import AllTickets from '../pages/Dashboard/components/All-tickets'
+import UknowladgeTicket from '../pages/Dashboard/components/UknowledgeTicket'
+import PendingTicket from '../pages/Dashboard/components/PendingTicket'
+import AssignTicket from '../pages/Dashboard/components/AssignTicket'
+import CloseTicket from '../pages/Dashboard/components/CloseTicket'
 
 const userRoutes = [
     { path: "/dashboard", component: Dashboard },
@@ -62,7 +70,16 @@ const userRoutes = [
     { path: "/all-booking", component: AllBooking },
     { path: "/add-maintenance", component: AddMaintenance },
     { path: "/add-service-provider", component: AddServiceProvider },
+    { path: "/service-provider-table", component: ServiceProviderTable },
     { path: "/share-document", component: AddDocument },
+
+
+    { path: "/all-ticket", component: AllTickets },
+    { path: "/uknowladge-ticket", component: UknowladgeTicket },
+    { path: "/pending-ticket", component: PendingTicket },
+    { path: "/assign-ticket", component: AssignTicket },
+    { path: "/close-ticket", component: CloseTicket },
+
     { path: "/", exact: true, component: () => < Redirect to = "/dashboard" / > },
 ]
 

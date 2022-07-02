@@ -9,6 +9,7 @@ import MetaTagComp from "../../components/Common/MetaTags";
 
 import { admin_json_Obj  } from '../ARRAYS-AND-OBJECTS/Admin-object';
 import Welcome from './components/welcome'
+import ServiceProvider from './components/ServiceProviderCard'
 import ApexChart from './components/ApexChart'
 import LineChart from './components/LineChart'
 import PieChart from './components/PieChart'
@@ -31,6 +32,8 @@ const Dashboard = () => {
           <Welcome />
           
           <CardsChart />
+          
+          <ServiceProvider />
 
           <Row>
             <Col lg={6} data-aos="fade-up-right">
@@ -71,6 +74,9 @@ const Dashboard = () => {
               </Card>
             </Col>
         </Row>
+
+        
+
           </div>
         </Container>
 

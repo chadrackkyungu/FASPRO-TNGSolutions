@@ -160,11 +160,6 @@ span.flatpickr-weekday {
   .slide {
     background: none !important;
   }
-
-  // .control-dots {
-  //   margin-top: 35px !important;
-  // }
-
   .carousel-status,
   .control-next,
   .control-prev {
@@ -372,3 +367,4 @@ label {
 ul li {list-style-type: none ; padding: .5em 0}
 .continue-register{justify-content:center ; align-items : center ; display: flex }
 .module-container-page{ width: 50% ; display:flex ;justify-content: center ; align-items: center ; margin: 0 auto }
+.bg-table-header, .btn-view-detail{background: $background ; color: $white}
